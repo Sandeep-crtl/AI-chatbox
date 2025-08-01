@@ -83,7 +83,8 @@ function addMessage(message, isUser) {
     profileImage.classList.add('profile-image');
     // Creates an image element for the profile picture (either the user or the bot) and adds the 'profile-image' CSS class.
 
-    profileImage.src = isUser ? 'user.jpg' : 'bot.png';
+    profileImage.src = isUser ? './Assets/user.jpg' : './Assets/bot.png';
+
     // Sets the image source depending on whether it's a user or bot message ('user.jpg' or 'bot.jpg').
 
     profileImage.alt = isUser ? 'User' : 'Bot';
