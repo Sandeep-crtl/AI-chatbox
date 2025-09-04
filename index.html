@@ -14,17 +14,87 @@
 </head>
 
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
-            <img src="./Assets/bot.png">
-            <h1>Gemini Chatbot</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="./Assets/bot.png" alt="Gemini Logo">
+            <span>Gemini AI Chatbot</span>
         </div>
-        <div class="chat-messages" id="chat-messages"></div>
-        <div class="chat-input-container">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button id="send-button">Send</button>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to Gemini AI Chatbot</h1>
+            <p>Experience seamless, intelligent conversations powered by advanced AI. Gemini is your professional
+                assistant for business, education, and personal use.</p>
+            <a href="#chatbox" class="hero-btn">Start Chatting</a>
+
         </div>
-    </div>
+        <div class="hero-image">
+            <img src="./Assets/bot.png" alt="Chatbot Hero">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="features-list">
+            <div class="feature-item">
+                <h3>24/7 Availability</h3>
+                <p>Gemini is always ready to assist you, anytime, anywhere.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Smart Responses</h3>
+                <p>Get accurate, context-aware answers to your queries.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Secure & Private</h3>
+                <p>Your conversations are encrypted and confidential.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbox Section -->
+    <section class="chatbox-section" id="chatbox">
+        <div class="chat-container">
+            <div class="chat-header">
+                <img src="./Assets/bot.png">
+                <h1>Gemini Chatbot</h1>
+            </div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="chat-input-container">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Gemini</h2>
+        <p>Gemini AI Chatbot is designed to provide professional, reliable, and intelligent conversation experiences for
+            users across various domains. Our mission is to make AI accessible and helpful for everyone.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us at <a
+                href="mailto:info@gemini-chatbot.com">info@gemini-chatbot.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Gemini AI Chatbot. All rights reserved.</p>
+    </footer>
+
     <script src="./script.js"></script>
 </body>
 

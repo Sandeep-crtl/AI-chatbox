@@ -160,3 +160,21 @@ userInput.addEventListener('keypress', (e) => {
         // Calls `handleUserInput` to send the message.
     }
 });
+<<<<<<< HEAD
+=======
+
+document.addEventListener("DOMContentLoaded", () => {
+    const chatbox = document.getElementById("chatbox");
+    const startBtn = document.querySelector(".hero-btn");
+
+    // When user clicks Start Chatting button
+    startBtn.addEventListener("click", (e) => {
+        e.preventDefault(); // prevent jump
+        chatbox.classList.add("active");
+
+        // Scroll to chatbox smoothly
+        chatbox.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+>>>>>>> 0767bc6 (Initial commit)
